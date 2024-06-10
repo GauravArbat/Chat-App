@@ -16,10 +16,5 @@
             "src": "/(.*)",
             "dest": "./index.js"
         }
-    ],
-    "env": {
-        "FRONTEND_URL": "$FRONTEND_URL",
-        "MONGODB_URI": "$MONGODB_URI",
-        "JWT_SECRET_KEY": "$JWT_SECRET_KEY"
-    }
+    ]
 }
