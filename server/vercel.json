@@ -7,11 +7,7 @@
             "use": "@vercel/node"
         }
     ],
-    "routes": [
-        {
-            "src": "/socket.io/(.*)",
-            "dest": "/"
-        },
+
         {
             "src" : "/(.*)",
             "dest" : "/"
